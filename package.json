@@ -1,0 +1,23 @@
+{
+  "name": "ejerciciosjs",
+  "version": "1.0.0",
+  "description": "Ejercicios de javascript",
+  "main": "index.js",
+  "scripts": {
+    "test:class": "jest",
+    "clase01": "npm run test:class C1_Fundamentos/tests",
+    "clase02": "npm run test:class C2_Bucles/tests",
+    "clase03": "npm run test:class C3_Arrays/tests",
+    "clase04": "npm run test:class C4_Objects/tests",
+    "clase05": "npm run test:class C5_Clases/tests",
+    "clase06": "npm run test:class C6_Callbacks/tests"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Emerson Villalta",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
